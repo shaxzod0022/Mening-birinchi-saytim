@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_top{
+    width: 1450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.header_item{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.logo_circle{
+    width: 70px;
+    height: 70px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+}
+.logo_text{ 
+    font-weight: 700;
+    color: dodgerblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    align-items: flex-end;  
+}      
+.header_logo{
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.nav{
+    display: flex;
+    align-items: center;
+    list-style: none; 
+}  
+.nav-item{
+    margin: 30px;
+}   
+.nav-link{
+    font-size: 13px;
+    font-family: "Poppins";
+    color: rgb(105, 102, 102);
+    text-transform: uppercase;
+    line-height: 1.692;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: black;
+}
+.btn{
+    width: 155px;
+    height: 52px;
+    border: none;
+    padding: 21px 30px;
+    font-size: 14px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    background-color: dodgerblue;
+} 
+.btn:hover{
+    background-color: rgb(119, 179, 238);
+}
+.header_bottom{
+    background-color: #a1a1a1;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}  
+.header_bottom-text{
+    margin-top: 240px;
+    font-size: 62px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+
+} 
+.scroll{
+    margin-top: 165px;
+}
+/* --------------------------------------------------------------- */
+.conteiner{
+    margin: auto;
+    width: 1000px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+.AboutMe_title{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AboutMe_title-text{
+    margin: 25px;
+    text-align: center;
+    font-size: 39px;
+    color: #333333;
+    font-weight: 700;
+}
+.a1{
+    text-align: center;
+    margin: 30px;
+}
+.AboutMe_text{
+    font-family: 'Lato', sans-serif;
+    font-smooth: 18px;
+    color: #666666;
+    margin-top: 50px;
+    width: 842px;
+    text-align: justify;
+    margin: 200px;
+}
+.AboutMe_btn{
+    width: 170px;
+    height: 50px;
+    border-radius: 2px;
+    border: 1px solid #e6e6e6;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.AboutMe_btn:hover{
+    background-color: #eee7e7;
+}
+.mobile{
+    width: 30px;  
+}
+/* ---------------------------------------------------------------- */
+.MyServices{
+    background-color: #f5f5f5;
+}
+.MyServices_items{
+    width: 100%;
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+.MyServices_items-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    width: 370px;
+    border-radius: 2px;
+    padding-top: 47px;
+    padding-bottom: 57px;
+}
+.item_icon{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px; 
+}
+.MyServices_items-title h3{
+    font-size: 18px;/* harflar orasidagi masofa*/
+    color: #333333; 
+    font-weight: 700; /* Harf yirikligi*/
+    margin-bottom: 26px;
+}
+.MyServices_items-title p{
+    font-size: 18px;
+    font-weight: 18px;
+    color: #666666;
+    font-family: 'Lato', sans-serif;
+    width: 280px;
+    text-align: justify;
+    text-align-last: center;
+}
+.MyServices_btn{
+    width: 120px;
+    height: 50px;
+    border: none;
+    padding: 21px 30px;
+    font-size: 14px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255); 
+    background-color: dodgerblue; 
+    margin: 50px 0 135px 0; 
+    border-radius: 2px;
+    font-weight: 600px;
+}
+.MyServices_btn:hover{
+    background-color: rgb(119, 179, 238);
+}
+
+/* ----------------------------------------------------------------- */
+.portfolio_nav {
+    width: 644px;
+    display: flex;/* so'zlarni x o'qi bo'yicha yoyish*/
+    list-style: none; /*so'z oldidagi nuqtachalarni yoqotish*/
+    justify-content: space-between; /*so'zlarning orasini ochish*/
+    margin-top: 42px;
+    margin-bottom: 58px;
+}
+.portfolio_nav-item {
+    padding: 15px 13px;
+    border: white;
+    transition: 0.5s;
+}
+.portfolio_nav-item:hover{
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+}
+.portfolio_nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(105, 102, 102);
+    text-decoration: none;/* past chiziqni o'chirish*/
+
+}
+.portfolio_items {
+    width: 100%;   
+    height: 970px;
+    display: flex;
+    flex-wrap: wrap; /*sig'maganini pastga tushiradi */  
+    justify-content: space-between;
+    align-content: space-between;
+ 
+}
+.portfolio_item {
+    width: 470px;
+    height: 300px;
+    background-color: #e6e6e6;
+}
+.portfolio_btn {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 135px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #808080;
+    cursor: pointer;
+}
+/* --------------------------------------------------------------------*/
+.Awward{
+    background-color: #858585;
+    padding: 190px 0 170px 0; 
+    
+
+}
+.Awward_numbers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.Awward_numbers-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+.numbers_title {
+    font-size: 50px;
+    font-weight: 700px;
+    line-height: 17px;
+    margin-bottom: 33px;
+}
+.numbers_text {
+    font-size: 14px;
+    font-weight: 500px;
+}
+/* ---------------------------------------------------------------- */
+.blog{
+    width: 100%;
+}
+.blog_title{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 39px;
+    color: #333333;
+    font-weight: 700;
+
+}
+.blog_katta{
+    display: flex;
+
+}
+.blog_title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog_rasm{
+    background-color: #808080;
+    height: 250px;
+    width: 300px;
+}
+.blog_text{
+    margin: 25px 17px 25px 12px;
+    justify-content: space-around;
+    text-align: left;
+}
+.blog_text h3 {
+    margin-bottom: 7px;
+}
+.blog_btn{
+    margin: 25px;
+    
+}
+.blog_btn-text{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.blog_btn-text:hover{
+    color: white;
+    background-color: black;
+}
